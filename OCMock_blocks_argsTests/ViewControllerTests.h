@@ -8,6 +8,6 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
-@interface OCMock_blocks_argsTests : SenTestCase
+@interface ViewControllerTests : SenTestCase
 
 @end

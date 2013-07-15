@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17B5C23960BB2267E5D41D2F /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C8F51B217927F2DB32F7 /* NextViewController.m */; };
+		6BFC76575E0D464CA0F60EE6 /* libPods-OCMock_blocks_argsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D9DDE313B9B4BBB825E61B7 /* libPods-OCMock_blocks_argsTests.a */; };
+		736C02BA1793A04B00B1C953 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7382D4091793987B00C1AFA7 /* ViewController.m */; };
+		736C02BB1793A04B00B1C953 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C8F51B217927F2DB32F7 /* NextViewController.m */; };
 		7382D3EE1793987B00C1AFA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7382D3ED1793987B00C1AFA7 /* UIKit.framework */; };
 		7382D3F01793987B00C1AFA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7382D3EF1793987B00C1AFA7 /* Foundation.framework */; };
 		7382D3F21793987B00C1AFA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7382D3F11793987B00C1AFA7 /* CoreGraphics.framework */; };
@@ -22,7 +26,7 @@
 		7382D4131793987B00C1AFA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7382D3ED1793987B00C1AFA7 /* UIKit.framework */; };
 		7382D4141793987B00C1AFA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7382D3EF1793987B00C1AFA7 /* Foundation.framework */; };
 		7382D41C1793987B00C1AFA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7382D41A1793987B00C1AFA7 /* InfoPlist.strings */; };
-		7382D41F1793987B00C1AFA7 /* OCMock_blocks_argsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7382D41E1793987B00C1AFA7 /* OCMock_blocks_argsTests.m */; };
+		7382D41F1793987B00C1AFA7 /* ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7382D41E1793987B00C1AFA7 /* ViewControllerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17B5C0E71762D1B981709E03 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		17B5C424ED3BC72DF76A9FDC /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
+		17B5C8F51B217927F2DB32F7 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		5D9DDE313B9B4BBB825E61B7 /* libPods-OCMock_blocks_argsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCMock_blocks_argsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		736C02B51793A01A00B1C953 /* OCMock_blocks_argsTests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "OCMock_blocks_argsTests copy-Info.plist"; path = "/Users/azu/Dropbox/workspace/iOS/project/OCMock_blocks_args/OCMock_blocks_argsTests copy-Info.plist"; sourceTree = "<absolute>"; };
 		7382D3EA1793987B00C1AFA7 /* OCMock_blocks_args.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCMock_blocks_args.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7382D3ED1793987B00C1AFA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7382D3EF1793987B00C1AFA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,8 +65,9 @@
 		7382D4111793987B00C1AFA7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		7382D4191793987B00C1AFA7 /* OCMock_blocks_argsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCMock_blocks_argsTests-Info.plist"; sourceTree = "<group>"; };
 		7382D41B1793987B00C1AFA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7382D41D1793987B00C1AFA7 /* OCMock_blocks_argsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMock_blocks_argsTests.h; sourceTree = "<group>"; };
-		7382D41E1793987B00C1AFA7 /* OCMock_blocks_argsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMock_blocks_argsTests.m; sourceTree = "<group>"; };
+		7382D41D1793987B00C1AFA7 /* ViewControllerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerTests.h; sourceTree = "<group>"; };
+		7382D41E1793987B00C1AFA7 /* ViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTests.m; sourceTree = "<group>"; };
+		D7096CE7AEFF4F409ED377BF /* Pods-OCMock_blocks_argsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCMock_blocks_argsTests.xcconfig"; path = "Pods/Pods-OCMock_blocks_argsTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +88,7 @@
 				7382D4121793987B00C1AFA7 /* SenTestingKit.framework in Frameworks */,
 				7382D4131793987B00C1AFA7 /* UIKit.framework in Frameworks */,
 				7382D4141793987B00C1AFA7 /* Foundation.framework in Frameworks */,
+				6BFC76575E0D464CA0F60EE6 /* libPods-OCMock_blocks_argsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +102,9 @@
 				7382D4171793987B00C1AFA7 /* OCMock_blocks_argsTests */,
 				7382D3EC1793987B00C1AFA7 /* Frameworks */,
 				7382D3EB1793987B00C1AFA7 /* Products */,
+				D7096CE7AEFF4F409ED377BF /* Pods-OCMock_blocks_argsTests.xcconfig */,
+				736C02B51793A01A00B1C953 /* OCMock_blocks_argsTests copy-Info.plist */,
+				17B5C424ED3BC72DF76A9FDC /* readme.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +124,7 @@
 				7382D3EF1793987B00C1AFA7 /* Foundation.framework */,
 				7382D3F11793987B00C1AFA7 /* CoreGraphics.framework */,
 				7382D4111793987B00C1AFA7 /* SenTestingKit.framework */,
+				5D9DDE313B9B4BBB825E61B7 /* libPods-OCMock_blocks_argsTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -123,6 +138,8 @@
 				7382D4081793987B00C1AFA7 /* ViewController.h */,
 				7382D4091793987B00C1AFA7 /* ViewController.m */,
 				7382D3F41793987B00C1AFA7 /* Supporting Files */,
+				17B5C0E71762D1B981709E03 /* NextViewController.h */,
+				17B5C8F51B217927F2DB32F7 /* NextViewController.m */,
 			);
 			path = OCMock_blocks_args;
 			sourceTree = "<group>";
@@ -144,8 +161,8 @@
 		7382D4171793987B00C1AFA7 /* OCMock_blocks_argsTests */ = {
 			isa = PBXGroup;
 			children = (
-				7382D41D1793987B00C1AFA7 /* OCMock_blocks_argsTests.h */,
-				7382D41E1793987B00C1AFA7 /* OCMock_blocks_argsTests.m */,
+				7382D41D1793987B00C1AFA7 /* ViewControllerTests.h */,
+				7382D41E1793987B00C1AFA7 /* ViewControllerTests.m */,
 				7382D4181793987B00C1AFA7 /* Supporting Files */,
 			);
 			path = OCMock_blocks_argsTests;
@@ -184,10 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7382D4251793987B00C1AFA7 /* Build configuration list for PBXNativeTarget "OCMock_blocks_argsTests" */;
 			buildPhases = (
+				E1728887843A4204B352ACCD /* Check Pods Manifest.lock */,
 				7382D40B1793987B00C1AFA7 /* Sources */,
 				7382D40C1793987B00C1AFA7 /* Frameworks */,
 				7382D40D1793987B00C1AFA7 /* Resources */,
 				7382D40E1793987B00C1AFA7 /* ShellScript */,
+				A1769C4B13A145A182F6BE2A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,6 +282,36 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		A1769C4B13A145A182F6BE2A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-OCMock_blocks_argsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1728887843A4204B352ACCD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -273,6 +322,7 @@
 				7382D3FA1793987B00C1AFA7 /* main.m in Sources */,
 				7382D3FE1793987B00C1AFA7 /* AppDelegate.m in Sources */,
 				7382D40A1793987B00C1AFA7 /* ViewController.m in Sources */,
+				17B5C23960BB2267E5D41D2F /* NextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +330,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7382D41F1793987B00C1AFA7 /* OCMock_blocks_argsTests.m in Sources */,
+				7382D41F1793987B00C1AFA7 /* ViewControllerTests.m in Sources */,
+				736C02BA1793A04B00B1C953 /* ViewController.m in Sources */,
+				736C02BB1793A04B00B1C953 /* NextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +454,7 @@
 		};
 		7382D4261793987B00C1AFA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7096CE7AEFF4F409ED377BF /* Pods-OCMock_blocks_argsTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OCMock_blocks_args.app/OCMock_blocks_args";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -419,6 +472,7 @@
 		};
 		7382D4271793987B00C1AFA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7096CE7AEFF4F409ED377BF /* Pods-OCMock_blocks_argsTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OCMock_blocks_args.app/OCMock_blocks_args";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -453,6 +507,7 @@
 				7382D4241793987B00C1AFA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7382D4251793987B00C1AFA7 /* Build configuration list for PBXNativeTarget "OCMock_blocks_argsTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +516,7 @@
 				7382D4271793987B00C1AFA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
